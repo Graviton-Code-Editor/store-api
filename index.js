@@ -9,8 +9,12 @@ const appLimit = createRateLimit({
 	message:"too many requests"
 })
 
-app.listen(3000)
+//app.listen(3000)
 app.use(appLimit)
+
+app.get('/', function (req, res) {
+	res.send("graviton api test")
+})
 
 app.get('/api/search/:pluginName', function (req, res) {
 	res.send({
