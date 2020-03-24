@@ -8,10 +8,11 @@
 		"build":"node build.js"
 	},
 	"keywords": [
-		"api"
+		"api",
+		"graviton"
 	],
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
 	"dependencies": {
 		"express": "^4.17.1",
 		"express-rate-limit": "^5.1.1",

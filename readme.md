@@ -1,4 +1,6 @@
 
-Method	endpoint		Description
-
-GET 	/search/:name	Get plugin info by it's name
+Method || Endpoint || Description
+____________________________________________
+GET || / || Get api information
+____________________________________________
+GET || /search/:pluginName || Get plugin info by it's name
