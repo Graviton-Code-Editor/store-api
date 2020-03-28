@@ -1,7 +1,7 @@
 const express = require('express')
 const createRateLimit = require("express-rate-limit")
 const app = express()
-const pluginsList = require("./build/list.json")
+const pluginsList = require("./store.json")
 const packageJSON = require("./package.json")
 
 const appLimit = createRateLimit({

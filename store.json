@@ -1,0 +1,11 @@
+{
+	"list":{
+		"flutter-plugin":{
+			"name":"Flutter Plugin",
+			"version":"0.0.1",
+			"author":"Marc Espín",
+			"repository": "github:Graviton-Code-Editor/flutter-plugin",
+			"lastRelease":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/v0.1.01/v0.1.01.zip"
+		}
+	}
+}

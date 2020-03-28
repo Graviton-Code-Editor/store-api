@@ -1,11 +1,11 @@
 {
 	"name": "graviton-api",
 	"version": "0.0.1",
-	"description": "Graviton store api",
+	"description": "Graviton Store api",
 	"main": "index.js",
 	"scripts": {
 		"start": "nodemon index.js",
-		"build":"node build.js"
+		"build": "node build.js"
 	},
 	"keywords": [
 		"api",
@@ -16,7 +16,9 @@
 	"dependencies": {
 		"express": "^4.17.1",
 		"express-rate-limit": "^5.1.1",
-		"mongodb": "^3.5.5",
 		"nodemon": "^2.0.2"
+	},
+	"devDependencies": {
+		"axios": "^0.19.2"
 	}
 }
