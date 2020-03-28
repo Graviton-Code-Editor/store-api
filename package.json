@@ -4,8 +4,7 @@
 	"description": "Graviton Store api",
 	"main": "index.js",
 	"scripts": {
-		"start": "nodemon index.js",
-		"build": "node build.js"
+		"start": "nodemon index.js"
 	},
 	"keywords": [
 		"api",
