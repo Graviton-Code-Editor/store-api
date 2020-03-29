@@ -27,6 +27,22 @@ app.get('/search/:pluginName', function (req, res) {
 	)
 })
 
+app.get('/list', function (req, res) {
+	res.send(
+		getPluginsList()
+	)
+})
+
+function getPluginsList(){
+	let result = {
+		list:[]
+	}
+	result.list = Object.keys(pluginsList.list).filter(pg=>{
+		return pg
+	})
+	return result
+}
+
 function getPluginByName(pluginName){
 	//Default values in case there is no plugin found.
 	let result = {
