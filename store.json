@@ -6,33 +6,6 @@
 			"author":"Marc Espín",
 			"repository": "github:Graviton-Code-Editor/flutter-plugin",
 			"lastRelease":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/v0.1.01/v0.1.01.zip"
-		},
-		"flutter-plugin2":{
-			"name":"Flutter Plugin",
-			"version":"0.0.1",
-			"author":"Marc Espín",
-			"repository": "github:Graviton-Code-Editor/flutter-plugin",
-			"lastRelease":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/v0.1.01/v0.1.01.zip"
-		},
-		"flutter-plugin3":{
-			"name":"Flutter Plugin",
-			"version":"0.0.1",
-			"author":"Marc Espín",
-			"repository": "github:Graviton-Code-Editor/flutter-plugin",
-			"lastRelease":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/v0.1.01/v0.1.01.zip"
-		},
-		"flutter-plugin4":{
-			"name":"Flutter Plugin",
-			"version":"0.0.1",
-			"author":"Marc Espín",
-			"repository": "github:Graviton-Code-Editor/flutter-plugin",
-			"lastRelease":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/v0.1.01/v0.1.01.zip"
-		},"flutter-plugin5":{
-			"name":"Flutter Plugin",
-			"version":"0.0.1",
-			"author":"Marc Espín",
-			"repository": "github:Graviton-Code-Editor/flutter-plugin",
-			"lastRelease":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/v0.1.01/v0.1.01.zip"
 		}
 	}
 }

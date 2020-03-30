@@ -8,10 +8,10 @@
 	},
 	"keywords": [
 		"api",
-		"graviton"
+		"graviton",
+		"store"
 	],
-	"author": "",
-	"license": "MIT",
+	"author": "Marc Espín Sanz <mespinsanz@gmail.com>",
 	"dependencies": {
 		"express": "^4.17.1",
 		"express-rate-limit": "^5.1.1",
@@ -19,5 +19,6 @@
 	},
 	"devDependencies": {
 		"axios": "^0.19.2"
-	}
+	},
+	"license":"MIT"
 }

@@ -5,8 +5,8 @@ const pluginsList = require("./store.json")
 const packageJSON = require("./package.json")
 
 const appLimit = createRateLimit({
-	windowMs: 15 * 60 * 100, // 3 requests / 25 seconds / IP
-	max: 3,
+	windowMs: 50000, // 3 requests / 25 seconds / IP
+	max: 7,
 	message:{
 		message:'Too many requests.'
 	}
