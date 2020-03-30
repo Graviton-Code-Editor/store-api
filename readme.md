@@ -4,13 +4,11 @@ Hosted in https://graviton-api.herokuapp.com/
 
 Usage:
 
-Method || Endpoint || Description
-____________________________________________
-GET || / || Get api information
-____________________________________________
-GET || /list || Get the whole list of plugins's names
-____________________________________________
-GET || /search/:pluginName || Get plugin info by it's name
+| Method        | Endpoint           | Description  |
+| ------------- |:-------------:| -----:|
+| GET     | / 					| Get api information |
+| GET     | /list   		   |  Get the whole list of plugins's names |
+| GET | /search/:pluginName     |    Get plugin info by it's name |
 
 **Note**:
 
