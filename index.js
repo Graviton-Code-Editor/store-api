@@ -17,7 +17,8 @@ app.use(appLimit)
 
 app.get('/', function (req, res) {
 	res.send({
-		"v":packageJSON.version
+		"v":packageJSON.version,
+		"graviton-version":pluginsList.graviton.version
 	})
 })
 
