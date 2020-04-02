@@ -4,7 +4,8 @@
 	},
 	"list":{
 		"flutter-plugin":{
-			"name":"Flutter Plugin",
+			"name":"FlutterPlugin",
+			"id":"flutter-plugin",
 			"version":"0.0.1",
 			"author":"Marc Espín",
 			"repository": "github:Graviton-Code-Editor/flutter-plugin",
