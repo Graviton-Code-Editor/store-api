@@ -10,6 +10,14 @@
 			"author":"Marc Espín",
 			"repository": "github:Graviton-Code-Editor/flutter-plugin",
 			"lastRelease":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/v0.1.01/v0.1.01.zip"
+		},
+		"github-plugin":{
+			"name": "github",
+			"id":"github-plugin",
+			"version": "0.4.3",
+			"author": "PJTSearch",
+			"repository": "github:pjtsearch/Graviton-Github-Plugin",
+			"lastRelease":"https://github.com/pjtsearch/Graviton-Github-Plugin/archive/0.4.3.zip"
 		}
 	}
 }
