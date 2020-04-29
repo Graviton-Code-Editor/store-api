@@ -1,6 +1,6 @@
 {
 	"graviton":{
-		"version":"2.0.79"	
+		"version":"2.0.81"
 	},
 	"list":{
 		"flutter-plugin":{
@@ -9,6 +9,7 @@
 			"version":"0.1.5",
 			"author":"Marc Espín",
 			"repository": "github:Graviton-Code-Editor/flutter-plugin",
+			"target":"2.0.81",
 			"lastRelease":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/0.1.5/FlutterPlugin.zip"
 		}
 	}
