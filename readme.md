@@ -53,3 +53,5 @@ $ npm install
 $ npm run start
 ```
 
+## Contributors 🤠
+LucasAlt [Github](https://github.com/LucasCtrl)
