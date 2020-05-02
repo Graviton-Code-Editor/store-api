@@ -1,4 +1,4 @@
-const db = require('../store.json')
+const db = require('../data/store.json')
 
 // Get all plugins
 exports.getAll = () => {

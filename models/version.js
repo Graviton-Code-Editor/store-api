@@ -1,4 +1,4 @@
-const pluginsList = require('../store.json')
+const pluginsList = require('../data/store.json')
 const packageJSON = require('../package.json')
 
 exports.apiVersion = () => {
