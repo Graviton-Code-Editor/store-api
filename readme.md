@@ -2,10 +2,6 @@
 
 Hosted in https://graviton-api.herokuapp.com/
 
-**Note**:
-
-You can make requests / 50 seconds / IP
-
 ## 📖 Usage:
 
 | Method | Endpoint | Description |
@@ -57,9 +53,3 @@ $ npm install
 $ npm run start
 ```
 
-**Note**
-
-You can also start the server using [PM2](https://pm2.keymetrics.io/) with the command:
-```sh
-pm2 start index.js
-```

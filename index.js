@@ -3,12 +3,10 @@ const createRateLimit = require('express-rate-limit')
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
 
-const config = require('./config.json')
-
 const app = express()
 
 const appLimit = createRateLimit({
-  windowMs: 50000, // 3 requests / 25 seconds / IP
+  windowMs: 50000,
   max: 7,
   message: {
     message: 'Too many requests.',
@@ -24,6 +22,6 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(require('./routes'))
 
-app.listen(config.port, () => console.log(`App listening on port ${config.port}!`))
+app.listen(process.env.PORT || 3000, () => console.log(`App listening on port 3000`))
 
 module.exports = app
