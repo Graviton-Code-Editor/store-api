@@ -25,3 +25,5 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(require('./routes'))
 
 app.listen(config.port, () => console.log(`App listening on port ${config.port}!`))
+
+module.exports = app

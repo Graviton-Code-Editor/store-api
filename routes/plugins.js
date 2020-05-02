@@ -2,7 +2,7 @@ const router = require('express').Router()
 const plugins = require('../models/plugins')
 
 router.get('/', function (req, res) {
-  res.json(plugins.getAll())
+  res.status(200).json({ plugins: plugins.getAll() })
 })
 
 router.get('/:pluginID', function (req, res) {
@@ -11,7 +11,7 @@ router.get('/:pluginID', function (req, res) {
   if (plugin === undefined) {
     res.sendStatus(404)
   } else {
-    res.json(plugin)
+    res.status(200).json({ plugin: plugin })
   }
 })
 

@@ -27,7 +27,7 @@ $ npm run dev
 ```
 
 ### Utils
-Before commiting on git
+#### Before commiting on git
 
 * Get all your linting error (with ESlint)
 ```sh
@@ -37,4 +37,29 @@ $ npm run lint
 * Fix all your linting error automatically (with ESlint)
 ```sh
 $ npm run lint:fix
+```
+
+#### When you want
+* Test the API using `Jest` and `supertest`
+```sh
+$ npm run test
+```
+
+## 💾 Production
+
+1. Install all the dependencies
+```sh
+$ npm install
+```
+
+2. Start the project in production mode.
+```sh
+$ npm run start
+```
+
+**Note**
+
+You can also start the server using [PM2](https://pm2.keymetrics.io/) with the command:
+```sh
+pm2 start index.js
 ```
