@@ -2,8 +2,8 @@
 	"graviton":{
 		"version":"2.0.82"
 	},
-	"list":{
-		"flutter-plugin":{
+	"list":[
+    {
 			"name":"FlutterPlugin",
 			"id":"flutter-plugin",
 			"version":"0.1.6",
@@ -12,5 +12,5 @@
 			"target":"2.0.82",
 			"lastRelease":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/0.1.6/FlutterPlugin.zip"
 		}
-	}
+  ]
 }
