@@ -2,11 +2,14 @@ const db = require('../data/store.json')
 
 // Get all plugins
 exports.getAll = () => {
-  let result = []
-
-  db.list.forEach((plugin) => result.push(plugin.id))
-
-  return result
+  return db.list.map(({ name, id, version, description }) => {
+    return {
+      name,
+      id,
+      version,
+      description,
+    }
+  })
 }
 
 // Get a plugin by it's ID
