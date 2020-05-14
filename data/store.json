@@ -6,14 +6,14 @@
 		{
 			"name":"FlutterPlugin",
 			"id":"flutter-plugin",
-			"version":"0.1.6",
 			"author":"Marc Espín",
 			"description":"Make flutter apps right from Graviton.",
 			"repository": "github:Graviton-Code-Editor/flutter-plugin",
 			"releases":[
 				{
+					"version":"0.1.6",
 					"target":"2.0.82",
-					"url":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/0.1.6/FlutterPlugin.zip",
+					"url":"https://github.com/Graviton-Code-Editor/flutter-plugin/releases/download/0.1.6/FlutterPlugin.zip"
 				}
 			]
 		}
