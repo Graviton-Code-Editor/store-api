@@ -13,6 +13,7 @@
 			"repository": "github:Graviton-Code-Editor/flutter-plugin",
 			"releases":[
 				{
+					"channel":"beta",
 					"version":"0.1.6",
 					"minTarget":"2.0.82",
 					"target":"2.0",
@@ -28,10 +29,11 @@
 			"repository": "github:marc2332/cargo-graviton",
 			"releases":[
 				{
+					"channel":"beta",
 					"version":"1.0.0",
 					"minTarget":"2.0.84",
 					"target":"2.0",
-						"url":"https://github.com/marc2332/cargo-graviton/releases/download/1.0.0/Cargo.zip"
+					"url":"https://github.com/marc2332/cargo-graviton/releases/download/1.0.0/Cargo.zip"
 				}
 			]
 		}
