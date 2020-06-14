@@ -8,7 +8,7 @@
 		{
 			"name":"FlutterPlugin",
 			"id":"flutter-plugin",
-			"author":"Marc Espín",
+			"author":"Marc Espín Sanz",
 			"description":"Make flutter apps right from Graviton.",
 			"repository": "github:Graviton-Code-Editor/flutter-plugin",
 			"releases":[
@@ -24,7 +24,7 @@
 		{
 			"name":"Cargo",
 			"id":"cargo-plugin",
-			"author":"Marc Espín",
+			"author":"Marc Espín Sanz",
 			"description":"Basic Cargo support.",
 			"repository": "github:marc2332/cargo-graviton",
 			"releases":[
@@ -50,6 +50,22 @@
 					"minTarget":"2.0.88",
 					"target":"2.0",
 					"url":"https://github.com/FreeAoi/Graviton-RPC/releases/download/1.0.1/discordrp.zip"
+				}
+			]
+		},
+		{
+			"name":"Deno",
+			"id":"deno-plugin",
+			"author":"Marc Espín Sanz",
+			"description":"Deno support for Graviton.",
+			"repository": "https://github.com/marc2332/deno-graviton",
+			"releases":[
+				{
+					"channel":"beta",
+					"version":"1.0.0",
+					"minTarget":"2.0.87",
+					"target":"2.0",
+					"url":"https://github.com/marc2332/deno-graviton/releases/download/1.0.0/Deno.zip"
 				}
 			]
 		}
