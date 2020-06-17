@@ -1,7 +1,7 @@
 {
 	"graviton":{
-		"devVersion":"2.0.88",
-		"betaVersion":"2.0.88",
+		"devVersion":"2.0.90",
+		"betaVersion":"2.0.90",
 		"stableVersion":"0.0.0"
 	},
 	"list":[
