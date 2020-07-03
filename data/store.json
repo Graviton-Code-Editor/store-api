@@ -46,6 +46,13 @@
 			"releases":[
 				{
 					"channel":"beta",
+					"version":"1.0.2",
+					"minTarget":"2.0.92",
+					"target":"2.0",
+					"url":"https://github.com/FreeAoi/Graviton-RPC/releases/download/1.0.2/discordrp.zip"
+				},
+				{
+					"channel":"beta",
 					"version":"1.0.1",
 					"minTarget":"2.0.88",
 					"target":"2.0",
