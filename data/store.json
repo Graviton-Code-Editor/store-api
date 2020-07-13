@@ -1,6 +1,6 @@
 {
 	"graviton":{
-		"devVersion":"2.0.92",
+		"devVersion":"2.0.94",
 		"betaVersion":"2.0.92",
 		"stableVersion":"0.0.0"
 	},
@@ -13,7 +13,6 @@
 			"repository": "github:Graviton-Code-Editor/flutter-plugin",
 			"releases":[
 				{
-					"channel":"beta",
 					"version":"0.1.6",
 					"minTarget":"2.0.82",
 					"target":"2.0",
@@ -29,7 +28,6 @@
 			"repository": "github:marc2332/cargo-graviton",
 			"releases":[
 				{
-					"channel":"beta",
 					"version":"1.0.0",
 					"minTarget":"2.0.84",
 					"target":"2.0",
@@ -45,14 +43,12 @@
 			"repository": "https://github.com/FreeAoi/Graviton-RPC",
 			"releases":[
 				{
-					"channel":"beta",
 					"version":"1.0.3",
 					"minTarget":"2.0.92",
 					"target":"2.0",
 					"url":"https://github.com/FreeAoi/Graviton-RPC/releases/download/1.0.3/discordrp.zip"
 				},
 				{
-					"channel":"beta",
 					"version":"1.0.1",
 					"minTarget":"2.0.88",
 					"target":"2.0",
@@ -68,11 +64,25 @@
 			"repository": "https://github.com/marc2332/deno-graviton",
 			"releases":[
 				{
-					"channel":"beta",
 					"version":"1.0.0",
 					"minTarget":"2.0.87",
 					"target":"2.0",
 					"url":"https://github.com/marc2332/deno-graviton/releases/download/1.0.0/Deno.zip"
+				}
+			]
+		},
+		{
+			"name":"OpenInBrowser",
+			"id":"open-in-browser-plugin",
+			"author":"Drylotrans",
+			"description":"Graviton plugin that allows you to open any HTML/PNG/SVG file in your default browser.",
+			"repository": "https://github.com/Drylotrans/OpenInBrowser",
+			"releases":[
+				{
+					"version":"1.0.1",
+					"minTarget":"2.0.92",
+					"target":"2.0",
+					"url":"https://github.com/Drylotrans/OpenInBrowser/releases/download/1.0.1/OpenInBrowser.zip"
 				}
 			]
 		}
