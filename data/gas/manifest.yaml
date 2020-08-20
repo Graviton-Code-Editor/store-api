@@ -1,0 +1,10 @@
+name: GravitonAutoSave
+id: GAS
+author: Jonyk56
+description: Graviton plugin to automatically save when editing a file.
+repository: https://github.com/Jonyk56/GAS
+releases:
+  - version: 1.0.0
+    minTarget: 2.0.92
+    target: 2.0
+    url: https://github.com/Jonyk56/GAS/releases/download/1.0-stable/GravitonAutoSave.zip

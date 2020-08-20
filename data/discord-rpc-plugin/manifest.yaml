@@ -1,0 +1,14 @@
+name: Discord RPC
+id: discord-rpc-plugin
+author: Free
+description: A plugin to show your current editing file in discord.
+repository: https://github.com/FreeAoi/Graviton-RPC
+releases:
+  - version: 1.0.3
+    minTarget: 2.0.92
+    target: 2.0
+    url: https://github.com/FreeAoi/Graviton-RPC/releases/download/1.0.3/discordrp.zip
+  - version: 1.0.1
+    minTarget: 2.0.88
+    target: 2.0
+    url: https://github.com/FreeAoi/Graviton-RPC/releases/download/1.0.1/discordrp.zip

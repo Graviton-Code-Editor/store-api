@@ -1,4 +1,4 @@
-const storeData = require('../data/store.json')
+const storeData = require('../dist/data.json')
 const packageJSON = require('../package.json')
 
 exports.apiVersion = () => {

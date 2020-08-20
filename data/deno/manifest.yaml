@@ -1,0 +1,10 @@
+name: OpenInBrowser
+id: open-in-browser-plugin
+author: Drylotrans
+description: Graviton plugin that allows you to open any HTML/PNG/SVG file in your default browser.
+repository: https://github.com/Drylotrans/OpenInBrowser
+releases:
+  - version: 1.0.1
+    minTarget: 2.0.92
+    target: 2.0
+    url: https://github.com/Drylotrans/OpenInBrowser/releases/download/1.0.1/OpenInBrowser.zip

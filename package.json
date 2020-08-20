@@ -1,6 +1,7 @@
 {
 	"name": "graviton-api",
-	"version": "1.0.2",
+	"publish":false,
+	"version": "1.0.3",
 	"description": "Graviton Store's api",
 	"main": "index.js",
 	"scripts": {
@@ -8,7 +9,8 @@
 		"dev": "nodemon index.js",
 		"lint": "eslint --ext .js --ignore-path .gitignore .",
 		"lint:fix": "eslint --ext .js --ignore-path .gitignore . --fix",
-		"test": "jest --forceExit"
+		"test": "gulp && jest --forceExit",
+		"build": "gulp"
 	},
 	"keywords": [
 		"api",
@@ -27,10 +29,12 @@
 		"eslint": "^6.8.0",
 		"eslint-config-prettier": "^6.11.0",
 		"eslint-plugin-prettier": "^3.1.3",
+		"gulp": "^4.0.2",
 		"jest": "^25.5.4",
 		"nodemon": "^2.0.3",
 		"prettier": "^2.0.5",
-		"supertest": "^4.0.2"
+		"supertest": "^4.0.2",
+		"yaml": "^1.10.0"
 	},
 	"license": "MIT"
 }

@@ -11,7 +11,7 @@ router.get('/:pluginID', function (req, res) {
   if (plugin === undefined) {
     res.sendStatus(404)
   } else {
-    res.status(200).json({ plugin: plugin })
+    res.status(200).json({ plugin })
   }
 })
 
