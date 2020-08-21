@@ -4,6 +4,10 @@ author: Free
 description: A plugin to show your current editing file in discord.
 repository: https://github.com/FreeAoi/Graviton-RPC
 releases:
+  - version: 1.0.5
+    minTarget: 2.0.98
+    target: 2.0
+    url: https://github.com/FreeAoi/Graviton-RPC/releases/download/1.0.5/gravitonRPC.zip
   - version: 1.0.3
     minTarget: 2.0.92
     target: 2.0
