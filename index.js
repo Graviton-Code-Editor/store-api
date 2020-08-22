@@ -22,6 +22,6 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(require('./routes'))
 
-app.listen(process.env.PORT || 3000, () => console.log(`App listening on port 3000`))
+app.listen(process.env.PORT || 2035, () => console.log(`App listening on port 3000`))
 
 module.exports = app

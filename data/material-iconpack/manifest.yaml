@@ -1,0 +1,10 @@
+name: Material Icons
+id: material-iconpack
+author: NEONz Developer
+description: Material icon pack
+repository: https://github.com/NEONzDev/graviton-material-icon-pack
+releases:
+ - version: 1.0.0
+   minTarget: 2.0.98
+   target: 2.0
+   url: https://github.com/NEONzDev/graviton-material-icon-pack/files/5112870/material-icons.zip
