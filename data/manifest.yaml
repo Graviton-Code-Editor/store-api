@@ -1,0 +1,10 @@
+  name: Material Icon Pack
+id: material-icon-pack
+author: NEONz Developer
+description: Material Icon Pack.
+repository: https://github.com/marc2332/cargo-graviton
+releases:
+  - version: 1.0.0
+    minTarget: 2.0.98
+    target: 2.0
+    url: https://github.com/NEONzDev/graviton-material-icon-pack
