@@ -1,4 +1,4 @@
-name: Discord RPC
+name: discordrp
 id: discord-rpc-plugin
 author: Free
 description: A plugin to show your current editing file in discord.
