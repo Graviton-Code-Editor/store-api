@@ -17,12 +17,12 @@ Hosted in https://graviton-api.herokuapp.com/
 $ npm install
 ```
 
-2. Start the project in dev mode. This command will start a development server with nodemon for automatic reload ([according to the doc](https://nodemon.io/)).
+2. Start the project in dev mode. This command will start a development server.
 ```sh
 $ npm run dev
 ```
 
-### Utils
+## 🎎 Contributing
 #### Before commiting on git
 
 * Get all your linting error (with ESlint)
@@ -35,10 +35,11 @@ $ npm run lint
 $ npm run lint:fix
 ```
 
-#### When you want
-* Test the API using `Jest` and `supertest`
-```sh
-$ npm run test
+## 🧦 Tests
+
+To run the tests, run:
+```shell
+$ npm test
 ```
 
 ## 💾 Production
