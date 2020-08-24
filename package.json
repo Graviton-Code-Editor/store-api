@@ -10,7 +10,7 @@
 		"lint": "eslint --ext .js --ignore-path .gitignore .",
 		"lint:fix": "eslint --ext .js . --fix",
 		"test": "gulp && npm run mocha",
-		"mocha": "mocha --reporter elexus",
+		"mocha": "mocha --reporter elexus --exit",
 		"build": "gulp"
 	},
 	"keywords": [
