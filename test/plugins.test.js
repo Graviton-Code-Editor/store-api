@@ -40,6 +40,7 @@ describe(`Plugin's releases`, () => {
         await downloadZip(url, `${id}_${version}`)
         const pluginPackage = getPackage(`${id}_${version}`)
 
+        expect(version).to.be.equal(pluginPackage.version)
         expect(id).to.be.equal(pluginPackage.id)
         expect(name).to.be.equal(pluginPackage.name)
       })
