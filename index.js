@@ -2,6 +2,7 @@ const express = require('express')
 const createRateLimit = require('express-rate-limit')
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
+const cors = require('cors')
 
 const app = express()
 
@@ -13,10 +14,9 @@ const appLimit = createRateLimit({
   },
 })
 
+app.use(cors())
 app.use(appLimit)
-
 app.use(morgan('dev'))
-
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
