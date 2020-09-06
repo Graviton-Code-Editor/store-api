@@ -4,8 +4,7 @@ const activeRooms = {}
 
 router.ws('/', ws => {
 	ws.on('message', msg => {
-		const { room, data, type, username: authorName } = JSON.parse(msg)
-		
+		const { room, type, usercolor:authorColor, data, username: authorName, userid: authorId } = JSON.parse(msg)
 		switch(type){
 			case 'userJoin':
 				if(!activeRooms[room]) activeRooms[room] = {
@@ -13,13 +12,36 @@ router.ws('/', ws => {
 				}
 				activeRooms[room].users.push({
 					username: authorName,
+					userid: authorId,
+					usercolor: authorColor,
 					socket: ws
 				})
+				ws.send(JSON.stringify({
+					room,
+					type:'welcome',
+					username: authorName,
+					usercolor: authorColor,
+					userid: authorId,
+					encrypted: false,
+					data: JSON.stringify({
+						room,
+						users: activeRooms[room].users.map( u => {
+							return {
+								username: u.username,
+								userid: u.userid,
+								usercolor: u.usercolor
+							}
+						})
+					})
+				}))
 				break;
 		}
 		activeRooms[room].users.map(({ socket }) => {
 			if(socket !== ws){
-				socket.send(msg)
+				socket.send(JSON.stringify({
+					... JSON.parse(msg),
+					encrypted: true
+				}))
 			}
 		})
 	})
