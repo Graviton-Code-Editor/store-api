@@ -5,7 +5,7 @@
 	"description": "Graviton Store's api",
 	"main": "index.js",
 	"scripts": {
-		"start": "pm2 start index.js --name StoreAPI ",
+		"start": "pm2 start index.js --name StoreAPI --log log.txt",
 		"dev": "nodemon index.js",
 		"lint": "eslint --ext .js --ignore-path .gitignore .",
 		"lint:fix": "eslint --ext .js . --fix",
