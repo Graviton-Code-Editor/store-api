@@ -8,7 +8,7 @@ const plugins = fs.readdirSync('./data')
 
 let finalData = {
   graviton: {
-    devVersion: '2.0.94',
+    devVersion: '2.0.99',
     betaVersion: '2.0.92',
     stableVersion: '0.0.0',
   },
