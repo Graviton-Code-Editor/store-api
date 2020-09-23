@@ -1,0 +1,10 @@
+name: Go
+id: go-plugin
+author: Erick Sosa
+description: Golang intellisense for Graviton
+repository: https://github.com/buttercubz/go-graviton
+releases:
+ - version: 1.1.2
+   minTarget: 2.0.99
+   target: 2.0
+   url: https://github.com/buttercubz/go-graviton/releases/download/v1.1.2/Go_v1.1.2.zip
