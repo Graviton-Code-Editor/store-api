@@ -2,7 +2,7 @@ name: Cargo
 id: cargo-plugin
 author: Marc Espín Sanz
 description: Basic Cargo support.
-repository: github:marc2332/cargo-graviton
+repository: https://github.com/marc2332/cargo-graviton
 releases:
   - version: 1.0.0
     minTarget: 2.0.84

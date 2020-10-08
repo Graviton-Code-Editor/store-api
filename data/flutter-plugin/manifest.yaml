@@ -2,7 +2,7 @@ name: FlutterPlugin
 id: flutter-plugin
 author: Marc Espín Sanz
 description: Make flutter apps right from Graviton.
-repository: github:Graviton-Code-Editor/flutter-plugin
+repository: https://github.com/Graviton-Code-Editor/flutter-plugin
 releases:
   - version: 0.1.6
     minTarget: 2.0.82 
