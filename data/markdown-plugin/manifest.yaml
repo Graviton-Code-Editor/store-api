@@ -1,0 +1,10 @@
+name: Markdown
+id: markdown-plugin
+author: Marc Espín
+description: Markdown live preview
+repository: https://github.com/marc2332/markdown-graviton
+releases:
+ - version: 1.0.1
+   minTarget: 2.1.0
+   target: 2.0
+   url: https://github.com/marc2332/markdown-graviton/releases/download/1.0.1/Markdown_v1.0.1.zip
