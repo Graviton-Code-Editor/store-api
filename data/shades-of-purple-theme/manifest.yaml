@@ -3,7 +3,7 @@ id: shades-of-purple
 author: David Niederweis
 description: Unofficial Port of the Shades of Purple Theme for Graviton.
 repository: https://github.com/DJN1/Graviton-Shades-of-Purple
-release:
+releases:
  - version: 1.0.0
    minTarget: 2.1.1
    target: 2.1
