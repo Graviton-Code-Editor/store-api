@@ -1,7 +1,7 @@
 {
 	"name": "store-api",
 	"publish": false,
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Graviton Store's api",
 	"main": "index.js",
 	"scripts": {
