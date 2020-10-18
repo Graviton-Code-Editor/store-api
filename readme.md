@@ -21,6 +21,34 @@ $ npm install
 ```sh
 $ npm run dev
 ```
+## 🔌 Publishing Plugins
+1. Fork this repository.
+2. `git clone https://github.com/<YOUR USERNAME>/store-api.git`
+3. `cd data`
+4. `mkdir <PLUGIN-NAME>`
+5. `cd <PLUGIN-NAME>`
+6. Create a file called `manifest.yaml`.
+7. In `manifest.yaml` put the following:
+```yaml
+name: <PLUGIN-NAME>
+id: <ID-FOR-PLUGIN>
+author: <YOUR-NAME>
+description: <DESCRIPTION>
+repository: <LINK-TO-PLUGIN-REPO>
+releases:
+ - version: <PLUGIN-VERSION>
+   minTarget: <SPECIFIC-GRAVITON-VERSION>
+   target: <GRAVITON-VERSION>
+   url: <LINK-TO-PLUGIN-RELEASE-ZIP>
+```
+##### About the yaml information above
+* `id, repository, url`: __cannot__ contain whitespace
+* To create a release for your plugin:
+  1. On your plugin's repository homepage, create a release and upload a `.zip` folder with only functional files for the plugin
+  2. Once the release is published, copy the download-url, and release version of the release and paste into the `url`, `version` fields above respectively.
+* `minTarget` will be a the full version of Graviton(`X.X.X`)
+* `target` will only be the first two numbers of the Graviton version(`X.X`)
+8. Commit changes and create PR
 
 ## 🎎 Contributing
 #### Before commiting on git
