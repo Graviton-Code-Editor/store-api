@@ -35,15 +35,20 @@ router.ws('/', ws => {
 					})
 				}))
 				break;
+			case 'connectionPing':
+				// Keep the connection alive
+				break;
 		}
-		activeRooms[room].users.map(({ socket }) => {
-			if(socket !== ws){
-				socket.send(JSON.stringify({
-					... JSON.parse(msg),
-					encrypted: true
-				}))
-			}
-		})
+		if(type !== 'connectionPing'){ //No need to propagate a ping event
+			activeRooms[room].users.map(({ socket }) => {
+				if(socket !== ws){
+					socket.send(JSON.stringify({
+						... JSON.parse(msg),
+						encrypted: true
+					}))
+				}
+			})
+		}
 	})
 	ws.on('close', () => {
 		console.log('WebSocket was closed')
