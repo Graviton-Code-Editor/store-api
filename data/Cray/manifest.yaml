@@ -1,0 +1,10 @@
+name: Cray
+id: cray1.2.0
+author: MoskalykA
+description: Cray Theme.
+repository: https://github.com/MoskalykA/cray-graviton-theme/
+releases:
+ - version: 1.2.0
+   minTarget: 1.20
+   target: 1.2.0
+   url: https://github.com/MoskalykA/cray-graviton-theme/releases/download/1.2.0/Cray.zip
