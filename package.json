@@ -31,7 +31,7 @@
 	},
 	"devDependencies": {
 		"adm-zip": "^0.4.16",
-		"axios": "^0.20.0",
+		"axios": "^0.21.1",
 		"chai": "^4.2.0",
 		"elexus": "^1.0.0",
 		"eslint": "^6.8.0",
