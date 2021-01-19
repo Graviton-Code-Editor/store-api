@@ -1,0 +1,10 @@
+name: GASImproved
+id: by.v30xy.gasimproved
+author: v30xy
+description: GAS but improved.
+repository: https://github.com/v30xy/gas-improved
+releases:
+  - version: 0.1.0
+    minTarget: 2
+    target: 2
+    url: https://github.com/v30xy/gas-improved/releases/download/0.1.0/GASImproved_v0.1.0.zip
